@@ -16,7 +16,7 @@ form.addEventListener('submit', function(evt) {
     }
 
     submit = true;
-    this.submit();
+    /*this.submit();*/
 });
 
 document.querySelector('#auth_submit').onclick = function notificationFunc(){

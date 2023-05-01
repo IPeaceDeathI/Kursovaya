@@ -37,7 +37,6 @@ document.querySelector('#auth_submit').onclick = function notificationFunc(){
         }
     }
 }
-
 document.querySelector('#auth_recover').onclick = function notificationFunc(){
     if (Notification.permission === "granted") {
         var Rec = new Notification("Забыли пароль?",
@@ -48,7 +47,6 @@ document.querySelector('#auth_recover').onclick = function notificationFunc(){
             });
     }
 }
-
 document.querySelector('#auth_registration').onclick = function notificationFunc(){
     if (Notification.permission === "granted") {
         var Reg = new Notification("Желаете пройти регистрацию?",

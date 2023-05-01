@@ -9,6 +9,17 @@ html{
 	
 }
 
+header{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("../images/bg.png");
+	background-repeat: repeat-x;
+
+	font-size:14px;
+	color:#666666;
+
+	margin:0;
+}
+
 body{
 	
 	font-family: 'Open Sans', sans-serif;
@@ -811,31 +822,31 @@ code{
 	}
 	
 	.footer-bar{
-		
+
 		line-height:10px;
-		
+
 		padding-top: 20px;
 		padding-bottom: 20px;
-		
+
 	}
 	
 	.footer-list li{
-		
+
 		margin-left:10px;
 		float:left;
-		
+
 	}
 	
 	.footer-top{
-		
+
 		padding-top:30px;
 		padding-bottom:40px;
-		
+
 		padding-left:20px;
 		padding-right:20px;
-		
+
 	}
-	
+
 }
 
 .message{
